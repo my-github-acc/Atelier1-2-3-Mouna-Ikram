@@ -1,4 +1,4 @@
-package com.jwt.aminafares;
+package com.tp.jwt;
 
 import javax.annotation.PostConstruct;
 
@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import com.jwt.aminafares.entities.Role;
-import com.jwt.aminafares.entities.User;
-import com.jwt.aminafares.services.UserService;
+import com.tp.jwt.entities.Role;
+import com.tp.jwt.entities.User;
+import com.tp.jwt.services.UserService;
 
 @SpringBootApplication
 public class Tp1JwtApplication implements CommandLineRunner {

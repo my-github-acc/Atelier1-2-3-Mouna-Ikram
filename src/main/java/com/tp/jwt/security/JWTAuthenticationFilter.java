@@ -1,4 +1,4 @@
-package com.jwt.aminafares.security;
+package com.tp.jwt.security;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jwt.aminafares.entities.User;
+import com.tp.jwt.entities.User;
 
 public class JWTAuthenticationFilter extends
 	UsernamePasswordAuthenticationFilter{

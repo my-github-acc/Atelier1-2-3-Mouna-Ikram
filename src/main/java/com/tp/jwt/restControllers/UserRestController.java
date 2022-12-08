@@ -1,4 +1,4 @@
-package com.jwt.aminafares.restControllers;
+package com.tp.jwt.restControllers;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jwt.aminafares.entities.User;
-import com.jwt.aminafares.services.UserService;
+import com.tp.jwt.entities.User;
+import com.tp.jwt.services.UserService;
 
 @RestController
 @CrossOrigin(origins = "*")

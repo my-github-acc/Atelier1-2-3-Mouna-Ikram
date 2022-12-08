@@ -1,4 +1,4 @@
-package com.jwt.aminafares.entities;
+package com.tp.jwt.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

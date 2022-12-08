@@ -1,4 +1,4 @@
-package com.jwt.aminafares.services;
+package com.tp.jwt.services;
 
 import java.util.List;
 
@@ -8,10 +8,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jwt.aminafares.entities.Role;
-import com.jwt.aminafares.entities.User;
-import com.jwt.aminafares.repos.RoleRepository;
-import com.jwt.aminafares.repos.UserRepository;
+import com.tp.jwt.entities.Role;
+import com.tp.jwt.entities.User;
+import com.tp.jwt.repos.RoleRepository;
+import com.tp.jwt.repos.UserRepository;
 
 
 

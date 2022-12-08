@@ -1,4 +1,4 @@
-package com.jwt.aminafares.security;
+package com.tp.jwt.security;
 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

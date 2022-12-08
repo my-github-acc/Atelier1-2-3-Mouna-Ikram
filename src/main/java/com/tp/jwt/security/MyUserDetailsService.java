@@ -1,4 +1,4 @@
-package com.jwt.aminafares.security;
+package com.tp.jwt.security;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.jwt.aminafares.entities.User;
-import com.jwt.aminafares.services.UserService;
+import com.tp.jwt.entities.User;
+import com.tp.jwt.services.UserService;
 
 @Service
 public class MyUserDetailsService implements UserDetailsService {

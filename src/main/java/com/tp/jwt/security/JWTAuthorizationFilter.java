@@ -1,4 +1,4 @@
-package com.jwt.aminafares.security;
+package com.tp.jwt.security;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,9 +1,9 @@
-package com.jwt.aminafares.services;
+package com.tp.jwt.services;
 
 import java.util.List;
 
-import com.jwt.aminafares.entities.Role;
-import com.jwt.aminafares.entities.User;
+import com.tp.jwt.entities.Role;
+import com.tp.jwt.entities.User;
 
 public interface UserService {
 	User saveUser(User user);
